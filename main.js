@@ -3,25 +3,25 @@ const myCodeImmersivesObj = {
 };
 
 // Set the value of property `objectify` to be "yourself".
-myCodeImmersivesObj.objectify = 'yourself'
+myCodeImmersivesObj.objectify = 'yourself';
 
 // Add the new property `isAnExcellentObject` and set it to `true`.
-myCodeImmersivesObj.isAnExcellentObject = true
+myCodeImmersivesObj.isAnExcellentObject = true;
 
 // Add the property `term` and set it to 1.
-myCodeImmersivesObj.term = 1
+myCodeImmersivesObj.term = 1;
 
 // Now add 1 to the value of your object's `term` property and put that new value back in your object's `term`.
-myCodeImmersivesObj.term++
+myCodeImmersivesObj.term++;
 
 // Now add a new property called `currentScore` and set it to 3.
-myCodeImmersivesObj.currentScore = 3
+myCodeImmersivesObj.currentScore = 3;
 
 // Now add a new property called `cumulativeScore` and set it to 50.
 myCodeImmersivesObj.cumulativeScore = 50
 
 // Now add your `currentScore` and your `cumulativeScore` and put it back in `cumulativeScore`.
-myCodeImmersivesObj.currentScore + myCodeImmersivesObj.cumulativeScore = myCodeImmersivesObj.cumulativeScore
+myCodeImmersivesObj.cumulativeScore = myCodeImmersivesObj.currentScore + myCodeImmersivesObj.cumulativeScore
 
 // Now add a property called `I am exactly this cool` (you'll need bracket notation!) and set it to `soooooo cool`.
 myCodeImmersivesObj['I am exactly this cool'] = 'soooooo cool';
@@ -31,13 +31,13 @@ myCodeImmersivesObj['I am exactly this cool'] = 'soooooo cool';
 const me = {};
 
 // Add a `firstName` property and set it to a string.
-me.firstName = 'Patrick'
+me.firstName = 'Patrick';
 
 // Add a `lastName` property and set it to a string.
-me.lastName = 'Navarre'
+me.lastName = 'Navarre';
 
 // Add a `fullName` property and set it to the name properties put together with a space string in the middle.
-me.fullName = firstName + ' ' + lastName
+me.fullName = me.firstName + ' ' + me.lastName
 
 // Add an `age` property and set it to a number.
 me.age = 38
@@ -46,7 +46,7 @@ me.age = 38
 me.address = []
 
 // Now push three strings into that array.
-address.push['835 Lost Lane', 'New York, NY', '02354']
+me.address.push['835 Lost Lane', 'New York, NY', '02354']
 
 
 // Now make a new object, but this time we'll pre-populate it, not set it in any lines below it. 
@@ -54,12 +54,12 @@ address.push['835 Lost Lane', 'New York, NY', '02354']
 // It can be called whatever you want and can have whatever properties you want, as long as they include at least one string value, boolean value, number value, and array of numbers. 
 // The important thing here is: this should all be done within the brackets of the object, not below the place where the object is declared.
 
-const automobile = { 
-  make: 'Ford', 
-  model: 'Mustang', 
-  year: '2020', 
-  color: 'black', 
-  
+const automobile = {
+  make: 'Ford',
+  model: 'Mustang',
+  year: '2020',
+  color: 'black',
+
 
 }
 
