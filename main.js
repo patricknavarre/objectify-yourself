@@ -46,7 +46,7 @@ me.age = 38
 me.address = []
 
 // Now push three strings into that array.
-me.address.push['835 Lost Lane', 'New York, NY', '02354']
+me.address.push('835 Lost Lane', 'New York, NY', '02354')
 
 
 // Now make a new object, but this time we'll pre-populate it, not set it in any lines below it. 
@@ -59,7 +59,13 @@ const automobile = {
   model: 'Mustang',
   year: '2020',
   color: 'black',
-
+  sportsCar: true,
+  wheels: 4,
+  packages: [
+    'LT',
+    'GT',
+    'Sport',
+  ]
 
 }
 
